@@ -2,9 +2,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <header>
+        <div class="nav">
+          <h2>MedEasy</h2>
+          <p>An online pharmaceutical store by SK Pharma</p>
+          <ul class="ibm-plex serif-bold">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <div class="background">
+            <img src="background" alt="" />
+          </div>
+        </div>
+      </header>
+      <section class="contact-container">
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+  
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+  
+            <div class="form-group">
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+  
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>
+              If you have any questions or inquiries, feel free to contact us
+              using the information below.
+            </p>
+            <p>Email: info@pharmastore.com</p>
+            <p>Phone: (123) 456-7890</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-container">
+            <div class="footer-info bona-nova-regular-italic">
+              <h2>Contact Us</h2>
+              <p>Road 12/A, Sector 10, Uttara, Dhaka, Bangladesh</p>
+              <p>Phone: +880 130 846 6291</p>
+              <p>Email: info@medeasypharmastore.com</p>
+            </div>
+            <div class="footer-social">
+              <h2>Follow Us</h2>
+              <ul>
+                <li>
+                  <a href="#"><img src="Images/facebook.png" alt="Facebook" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="Images/instagram.png" alt="Instagram"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     
 </body>
 </html>
